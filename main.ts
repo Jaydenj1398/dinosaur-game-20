@@ -121,4 +121,5 @@ scene.setBackgroundImage(img`
     ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
     `)
 let mySprite = sprites.create(assets.image`Dino`, SpriteKind.Player)
+controller.moveSprite(mySprite)
 mySprite.setPosition(48, 89)
